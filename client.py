@@ -1,8 +1,9 @@
 import socket
 import json
 
-HOST = '203.236.8.208'
-PORT = 50007
+
+HOST = 'your ip'
+PORT = 25565
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
